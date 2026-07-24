@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "frame_size": 192,
+  "pivot": [
+    96,
+    176
+  ],
+  "actions": {
+    "idle": {
+      "frames": 8,
+      "fps": 6,
+      "loop": true
+    },
+    "walk": {
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "katana": {
+      "frames": 8,
+      "fps": 8,
+      "event_frame": 4
+    },
+    "snap": {
+      "frames": 8,
+      "fps": 12,
+      "event_frame": 4
+    },
+    "smg": {
+      "frames": 8,
+      "fps": 8,
+      "event_frame": 4
+    },
+    "death": {
+      "frames": 8,
+      "fps": 6,
+      "loop": false
+    },
+    "stunned": {
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    }
+  }
+}

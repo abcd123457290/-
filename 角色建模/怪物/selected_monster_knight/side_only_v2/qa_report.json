@@ -1,0 +1,430 @@
+{
+  "status": "pass",
+  "version": "side_only_v2",
+  "animation": {
+    "animation": "monster_attack",
+    "expected_frames_per_direction": 8,
+    "actual_frame_files": 16,
+    "all_64x64_rgba": true,
+    "all_canvas_edges_transparent": true,
+    "body_center_x_range": [
+      32,
+      32
+    ],
+    "body_center_max_deviation": 0,
+    "foot_baseline_y_range": [
+      60,
+      60
+    ],
+    "foot_baseline_max_deviation": 0,
+    "soft_alpha_edge_pixels_range": [
+      24,
+      39
+    ],
+    "visible_green_fringe_pixels": 0,
+    "left_is_exact_pivot_mirror": true,
+    "frames": [
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_00.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          9,
+          27,
+          45,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 26,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "0b7f9297ec4fe19e00e9c1253946593ee560ad740e37b3f0f0720b6ec8e44996"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_01.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          11,
+          33,
+          47,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 39,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "d1be3a0b2b04a75ffcb89f2f603f5fa693e60da1972fdcf7d93cf1292cdb734f"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_02.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          21,
+          28,
+          53,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 34,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "885cd95dd93b7bbc227888629b6d0d02225471ffb5a0ae69c8996c666f15b5f8"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_03.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          10,
+          31,
+          47,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 29,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "6dd3c5176aab69bc69f4ac35740e7353efc6ff208746dcb3e81ae4dcec9729d8"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_04.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          10,
+          30,
+          50,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 29,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "8e4bb9b1f98f56e56334d11ceb23d1c917d8101be3a893120cb3e1bd40bd576e"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_05.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          11,
+          31,
+          60,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 29,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "02de479e63fedd4e8c92a5237d0b9328465757d1a7f124adf06036791049807f"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_06.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          23,
+          29,
+          61,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 34,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "a89e75df5e433ce0c8768ba945de9650a6cec7974508b27d22e13426c645d8b2"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_07.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          10,
+          28,
+          45,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 24,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "1fe4db0abd4dc548a3f4be4d0c270e099297e52ddfe77ddb482b9ea27fe14ab4"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_00.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          20,
+          27,
+          56,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 26,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "8548111558798170ff7b9922bfcb8455430eb07a3e2374a759fae06e1061001c"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_01.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          18,
+          33,
+          54,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 39,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "4b60e0507c8235a0632453380464ef213814261c6483d8b744f0a421ad41bddd"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_02.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          12,
+          28,
+          44,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 34,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "e34f36bc7e0561216d9ca714692f1b4e9caec020ea842fba50243aec7887ccad"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_03.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          18,
+          31,
+          55,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 29,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "8234e45c94e2d2f3630689ff8869f96fe4bd4dbaa05157d6328ccb171eb3b10f"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_04.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          15,
+          30,
+          55,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 29,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "10ff8f94d6b289abeac51f864907d5df71d5992f84e1dfc1711760b7413f19c4"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_05.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          5,
+          31,
+          54,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 29,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "06e69f39ca1cc3d5f90c0dbb873c47c361b11c1a474bbb644b159a47f815ea84"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_06.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          4,
+          29,
+          42,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 34,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "e674fa0ed262570a85ece3fb475659bf0c21bc6403814fdd71922bf5c38b5385"
+      },
+      {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_07.png",
+        "size": [
+          64,
+          64
+        ],
+        "mode": "RGBA",
+        "bbox": [
+          20,
+          28,
+          55,
+          60
+        ],
+        "body_center_x": 32,
+        "foot_baseline_y": 60,
+        "border_alpha_max": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "partial_alpha_pixels": 24,
+        "visible_green_fringe_pixels": 0,
+        "sha256": "ebf8f4d6298d58cd004eb9437a1503bbdb61167c49ecf402f5844aa4d506a76f"
+      }
+    ]
+  },
+  "failures": []
+}

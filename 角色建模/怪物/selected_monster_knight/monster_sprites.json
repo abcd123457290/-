@@ -1,0 +1,54 @@
+{
+  "frame_width": 64,
+  "frame_height": 64,
+  "directions": {
+    "down": 0,
+    "left": 1,
+    "right": 2,
+    "up": 3
+  },
+  "animations": {
+    "idle": {
+      "image": "monster_knight_idle_4dir_64.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 1,
+      "loop": true
+    },
+    "walk_front": {
+      "image": "monster_walk_front_4frames_64.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_back": {
+      "image": "monster_walk_back_4frames_64.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 8,
+      "loop": true
+    },
+    "walk_side": {
+      "image": "monster_walk_side_4frames_64.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 8,
+      "loop": true
+    },
+    "attack_side": {
+      "image": "monster_attack_side_4frames_64.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 12,
+      "loop": false
+    },
+    "attack_front": {
+      "image": "monster_attack_front_4frames_64.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 12,
+      "loop": false
+    }
+  }
+}

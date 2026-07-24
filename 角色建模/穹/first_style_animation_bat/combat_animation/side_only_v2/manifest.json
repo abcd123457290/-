@@ -1,0 +1,229 @@
+{
+  "version": "side_only_v2",
+  "frame_size": [
+    64,
+    64
+  ],
+  "pivot": [
+    32,
+    60
+  ],
+  "direction_order": [
+    "left",
+    "right"
+  ],
+  "facing_policy": "horizontal_memory",
+  "source_policy": {
+    "authored_direction": "right",
+    "left_direction": "mirror right about pivot x=32",
+    "player_common_scale_across_all_18_frames": 0.130405405,
+    "monster_common_scale_across_all_8_frames": 0.11091954,
+    "per_frame_stretch": false
+  },
+  "source_masters": {
+    "user_reference": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/style_sources/user_reference.png",
+    "player_idle_walk_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/style_sources/player_idle_walk_chroma.png",
+    "player_idle_walk_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/transparent_masters/player_idle_walk_transparent.png",
+    "player_attack_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/style_sources/player_attack_chroma.png",
+    "player_attack_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/transparent_masters/player_attack_transparent.png",
+    "monster_attack_chroma": "角色建模/怪物/selected_monster_knight/side_only_v2/style_sources/monster_attack_chroma.png",
+    "monster_attack_transparent": "角色建模/怪物/selected_monster_knight/side_only_v2/transparent_masters/monster_attack_transparent.png",
+    "chroma_command": "remove_chroma_key.py --auto-key border --soft-matte --despill"
+  },
+  "animations": {
+    "player_idle": {
+      "actor": "qiong",
+      "frame_size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        60
+      ],
+      "fps": 5,
+      "runtime_duration_seconds": 0.8,
+      "timing_semantics": "frame_count / fps",
+      "loop": true,
+      "frame_count": 4,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=32",
+      "common_source_scale": 0.130405405,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/left/qiong_idle_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/left/qiong_idle_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/left/qiong_idle_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/left/qiong_idle_left_03.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/right/qiong_idle_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/right/qiong_idle_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/right/qiong_idle_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/idle/right/qiong_idle_right_03.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/spritesheets/qiong_idle_side_4frames.png",
+        "columns": 4,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "player_walk": {
+      "actor": "qiong",
+      "frame_size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        60
+      ],
+      "fps": 12,
+      "runtime_duration_seconds": 0.333333,
+      "timing_semantics": "frame_count / fps",
+      "loop": true,
+      "frame_count": 4,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=32",
+      "common_source_scale": 0.130405405,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/left/qiong_walk_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/left/qiong_walk_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/left/qiong_walk_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/left/qiong_walk_left_03.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/right/qiong_walk_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/right/qiong_walk_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/right/qiong_walk_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/walk/right/qiong_walk_right_03.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/spritesheets/qiong_walk_side_4frames.png",
+        "columns": 4,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "player_attack": {
+      "actor": "qiong",
+      "frame_size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        60
+      ],
+      "fps": 25,
+      "runtime_duration_seconds": 0.4,
+      "timing_semantics": "frame_count / fps",
+      "loop": false,
+      "frame_count": 10,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=32",
+      "common_source_scale": 0.130405405,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_07.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_08.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/left/qiong_attack_left_09.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_07.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_08.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/player/attack/right/qiong_attack_right_09.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v2/spritesheets/qiong_attack_side_10frames.png",
+        "columns": 10,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      },
+      "hit_frame": 4,
+      "hit_time_seconds": 0.16,
+      "hit_boundary_semantics": "0-based timeline sampling: elapsed < 0.16s uses frames 0..3; elapsed >= 0.16s samples contact frame 4"
+    },
+    "monster_attack": {
+      "actor": "selected_monster_knight",
+      "frame_size": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        60
+      ],
+      "fps": 20,
+      "runtime_duration_seconds": 0.4,
+      "timing_semantics": "frame_count / fps",
+      "loop": false,
+      "frame_count": 8,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=32",
+      "common_source_scale": 0.11091954,
+      "frames": {
+        "left": [
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_00.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_01.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_02.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_03.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_04.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_05.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_06.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/left/monster_attack_left_07.png"
+        ],
+        "right": [
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_00.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_01.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_02.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_03.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_04.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_05.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_06.png",
+          "角色建模/怪物/selected_monster_knight/side_only_v2/attack/right/monster_attack_right_07.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/怪物/selected_monster_knight/side_only_v2/spritesheets/monster_attack_side_8frames.png",
+        "columns": 8,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      },
+      "hit_frame": 5,
+      "hit_time_seconds": 0.24,
+      "hit_boundary_semantics": "Monster::ResampleAttackFrame: elapsed < 0.24s uses windup frames 0..4; elapsed >= 0.24s starts contact frame 5"
+    }
+  }
+}

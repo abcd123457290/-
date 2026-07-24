@@ -1,0 +1,81 @@
+{
+  "frame_width": 64,
+  "frame_height": 64,
+  "direction_order": ["down", "left", "right", "up"],
+  "directions": {
+    "down": 0,
+    "left": 1,
+    "right": 2,
+    "up": 3
+  },
+  "models": {
+    "idle": {
+      "image": "base/kafka_idle_4dir.png",
+      "columns": 4,
+      "rows": 1
+    },
+    "katana_idle": {
+      "image": "katana/kafka_katana_idle_4dir.png",
+      "columns": 4,
+      "rows": 1,
+      "weapon": "long_katana"
+    },
+    "smg_idle": {
+      "image": "smg/kafka_smg_idle_4dir.png",
+      "columns": 4,
+      "rows": 1,
+      "weapon": "compact_smg"
+    },
+    "walk": {
+      "image": "walk_unarmed/kafka_walk_4dir_4frames.png",
+      "columns": 4,
+      "rows": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "katana_walk": {
+      "image": "walk_katana/kafka_katana_walk_4dir_4frames.png",
+      "columns": 4,
+      "rows": 4,
+      "fps": 8,
+      "loop": true,
+      "weapon": "long_katana"
+    },
+    "smg_walk": {
+      "image": "walk_smg/kafka_smg_walk_4dir_4frames.png",
+      "columns": 4,
+      "rows": 4,
+      "fps": 8,
+      "loop": true,
+      "weapon": "compact_smg"
+    },
+    "katana_attack": {
+      "image": "attack_katana/kafka_katana_attack_4dir_5frames.png",
+      "columns": 5,
+      "rows": 4,
+      "fps": 12,
+      "loop": false,
+      "hit_frame": 3,
+      "weapon": "long_katana"
+    },
+    "smg_attack": {
+      "image": "attack_smg/kafka_smg_attack_4dir_5frames.png",
+      "columns": 5,
+      "rows": 4,
+      "fps": 12,
+      "loop": false,
+      "fire_frame": 2,
+      "weapon": "compact_smg"
+    }
+  },
+  "weapons": {
+    "long_katana": {
+      "icon": "weapons/kafka_long_katana_64.png",
+      "inventory": "weapons/kafka_long_katana_128x32.png"
+    },
+    "compact_smg": {
+      "icon": "weapons/kafka_smg_64.png",
+      "inventory": "weapons/kafka_smg_96x64.png"
+    }
+  }
+}

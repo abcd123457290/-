@@ -1,0 +1,2241 @@
+{
+  "status": "pass",
+  "version": "side_only_v3",
+  "frame_size": [
+    96,
+    96
+  ],
+  "pivot": [
+    48,
+    90
+  ],
+  "direction_order": [
+    "left",
+    "right"
+  ],
+  "facing_policy": "horizontal_memory",
+  "source_copy_hashes": {
+    "idle": "79add7b4d5487ee422500456a059474f0ef4669ca92ecf8a9cfc6a7b4de285b6",
+    "walk8": "88ccc34d3e8316f226887660d22443767f0ef48806e22a076803dc864ed2e2b2",
+    "attack10": "b2a8ae9a4fbb56884d9fa69884030cd8af2f747325907b957e151d23adaa483f",
+    "death8": "2c5d68b3e799a9c995cebc1b6673db10288d1a991cad7d5d014af9cb7f9c4d56",
+    "finisher_icon": "21f1958a84d63e1b0f64d186a4f32351f652bced50fc7510d34927e348079fbc",
+    "user_reference": "e67397ebcad20d6cf3dda3dd5ed8fca2b776fb01e82ffeba08aa56303fa4091b"
+  },
+  "scale_checks": {
+    "standing_visual_body_height": 56,
+    "idle_unique_scale_count": 1,
+    "idle_scale": 0.189011885,
+    "walk_unique_scale_count": 1,
+    "walk_scale": 0.196925217,
+    "attack_unique_scale_count": 1,
+    "attack_scale": 0.219794466,
+    "death_unique_scale_count": 1,
+    "death_scale": 0.1755,
+    "per_frame_scale": false,
+    "anisotropic_stretch": false
+  },
+  "idle_attack_boundary_height_check": {
+    "idle_median_body_height": 56,
+    "attack_first_body_height": 55,
+    "attack_last_body_height": 55,
+    "maximum_deviation_pixels": 1,
+    "tolerance_pixels": 1,
+    "pass": true
+  },
+  "transparent_masters": [
+    {
+      "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_idle_source_4x2_transparent.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1304516,
+      "partial_alpha_pixels": 15044
+    },
+    {
+      "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_walk_8frames_transparent.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1319018,
+      "partial_alpha_pixels": 13879
+    },
+    {
+      "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_attack_10frames_transparent.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1341762,
+      "partial_alpha_pixels": 14545
+    },
+    {
+      "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_death_8frames_transparent.png",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1384477,
+      "partial_alpha_pixels": 12349
+    },
+    {
+      "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_finisher_icon_transparent.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparent_pixels": 978920,
+      "partial_alpha_pixels": 6280
+    }
+  ],
+  "animations": [
+    {
+      "animation": "player_idle",
+      "fps": 5,
+      "runtime_duration_seconds": 0.8,
+      "expected_frames_per_direction": 4,
+      "actual_frame_files": 8,
+      "spritesheet_size": [
+        384,
+        192
+      ],
+      "spritesheet_expected_size": [
+        384,
+        192
+      ],
+      "png_preview_size": [
+        1152,
+        576
+      ],
+      "gif_frame_count": 4,
+      "unique_scale_count": 1,
+      "common_source_scale": 0.189011885,
+      "all_96x96_rgba": true,
+      "all_canvas_edges_transparent": true,
+      "body_center_x_range": [
+        48,
+        48
+      ],
+      "foot_baseline_y_range": [
+        90,
+        90
+      ],
+      "body_height_range": [
+        55,
+        56
+      ],
+      "visible_green_fringe_pixels": 0,
+      "left_is_exact_pivot_mirror": true,
+      "frames": [
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            34,
+            81,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 61,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 325,
+            "black_pixels": 685,
+            "gold_pixels": 104
+          },
+          "sha256": "d675e4f8fdfb263b37cc396d66f5801ff7a911b5ce86f4fabba52844e36a02f2"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            34,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 50,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 312,
+            "black_pixels": 703,
+            "gold_pixels": 103
+          },
+          "sha256": "8bcd1ec5ced4cae952e7dc89438e03b4b5f63177eae67eb08215b0fcbff89631"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            34,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 60,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 312,
+            "black_pixels": 725,
+            "gold_pixels": 93
+          },
+          "sha256": "cc7d49552f28d35dc972d6a7641ef5d76a46c48f283ac8b4f9b33119fb04bb53"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            34,
+            81,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 35,
+          "foot_baseline_y": 90,
+          "body_height": 55,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 64,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 310,
+            "black_pixels": 694,
+            "gold_pixels": 97
+          },
+          "sha256": "588fac5cd2d9f21bea7f22a44def7ad9a4c79cb21b3d262276807c658923b6e4"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            16,
+            34,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 61,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 325,
+            "black_pixels": 685,
+            "gold_pixels": 104
+          },
+          "sha256": "eff9e120c6a773ecd5ed4c614c674fbcf771d3f6161439eaaae4120aca548b2b"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            34,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 50,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 312,
+            "black_pixels": 703,
+            "gold_pixels": 103
+          },
+          "sha256": "e96f1250be233367309da56209daea685b4c832cc00c8d8081f2b70ae44c1fd6"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            34,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 60,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 312,
+            "black_pixels": 725,
+            "gold_pixels": 93
+          },
+          "sha256": "ade7aed6dad1314feb5614b295224d2fd2ef1317defcf25c9fe07744149a82dc"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            16,
+            34,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 35,
+          "foot_baseline_y": 90,
+          "body_height": 55,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 64,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 310,
+            "black_pixels": 694,
+            "gold_pixels": 97
+          },
+          "sha256": "57593ec50c94be6576c896f3cf7cfd62c2ad6918f69fb39da88acb97b3cfaef8"
+        }
+      ]
+    },
+    {
+      "animation": "player_walk",
+      "fps": 12,
+      "runtime_duration_seconds": 0.666667,
+      "expected_frames_per_direction": 8,
+      "actual_frame_files": 16,
+      "spritesheet_size": [
+        768,
+        192
+      ],
+      "spritesheet_expected_size": [
+        768,
+        192
+      ],
+      "png_preview_size": [
+        2304,
+        576
+      ],
+      "gif_frame_count": 8,
+      "unique_scale_count": 1,
+      "common_source_scale": 0.196925217,
+      "all_96x96_rgba": true,
+      "all_canvas_edges_transparent": true,
+      "body_center_x_range": [
+        48,
+        48
+      ],
+      "foot_baseline_y_range": [
+        90,
+        90
+      ],
+      "body_height_range": [
+        56,
+        57
+      ],
+      "visible_green_fringe_pixels": 0,
+      "left_is_exact_pivot_mirror": true,
+      "frames": [
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            17,
+            33,
+            73,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 33,
+          "foot_baseline_y": 90,
+          "body_height": 57,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 60,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 332,
+            "black_pixels": 714,
+            "gold_pixels": 82
+          },
+          "sha256": "55903d27ccd71c96a99dd87ba6c5e84583509a2069e916ec8639c007e1cac7d4"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            33,
+            65,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 65,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 318,
+            "black_pixels": 686,
+            "gold_pixels": 90
+          },
+          "sha256": "9c0a51a556917dbaba5ee61a35e931f0e36f3267d7afec44467b5705a9e3edd2"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            33,
+            70,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 79,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 323,
+            "black_pixels": 712,
+            "gold_pixels": 89
+          },
+          "sha256": "2693689d980461f01ce37218563f811e111c687500db2d8c5801c0aedd97b832"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            16,
+            33,
+            71,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 60,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 302,
+            "black_pixels": 703,
+            "gold_pixels": 88
+          },
+          "sha256": "eeeec23b2bb03058b2d64ccdc4937c5e5b9b8ea2354f9e2331b8272ce9db3757"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_04.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            34,
+            73,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 61,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 319,
+            "black_pixels": 721,
+            "gold_pixels": 79
+          },
+          "sha256": "21013d7a470625cd14ed49c7f8f060278f717da05141993f0c5b466151d1f1da"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_05.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            16,
+            33,
+            71,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 68,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 317,
+            "black_pixels": 706,
+            "gold_pixels": 80
+          },
+          "sha256": "a17fa8f8e1a1066d2afb576f881514418f50fe90d45bce357dec612a4634be6b"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_06.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            33,
+            68,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 48,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 317,
+            "black_pixels": 675,
+            "gold_pixels": 87
+          },
+          "sha256": "f73945f09bd80a219219c50d589893df8c9cb7b6c50d32d13cf715dba1c1c16b"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_07.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            33,
+            65,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 54,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 311,
+            "black_pixels": 682,
+            "gold_pixels": 88
+          },
+          "sha256": "f7f3a24f2b925c1c36b2a2993cf3fcd82035040c19cc8b911da6ec4ebf883c88"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            24,
+            33,
+            80,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 33,
+          "foot_baseline_y": 90,
+          "body_height": 57,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 60,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 332,
+            "black_pixels": 714,
+            "gold_pixels": 82
+          },
+          "sha256": "d01e20a2d219caf68c930a1835f75d4f635a87380fc2bd59b1555eb735a228e2"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            32,
+            33,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 65,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 318,
+            "black_pixels": 686,
+            "gold_pixels": 90
+          },
+          "sha256": "412e8950649d7b9a775dbb6269501a377c5162929833d33688b822f19cbff2ac"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            27,
+            33,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 79,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 323,
+            "black_pixels": 712,
+            "gold_pixels": 89
+          },
+          "sha256": "777de71c4ad64a361d232b2d042cadff543a3c0681fddb238b3bd2afb8957d00"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            26,
+            33,
+            81,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 60,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 302,
+            "black_pixels": 703,
+            "gold_pixels": 88
+          },
+          "sha256": "1ae4d7bbe28dccd0b2dfac1123c8083d316ffa391656392c2f623516bd3e6918"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_04.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            24,
+            34,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 61,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 319,
+            "black_pixels": 721,
+            "gold_pixels": 79
+          },
+          "sha256": "9604d8ec4aece7dfa6d45059d9001e691fd88f1a5a069585aa3efabf101d5f1e"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_05.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            26,
+            33,
+            81,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 68,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 317,
+            "black_pixels": 706,
+            "gold_pixels": 80
+          },
+          "sha256": "abf7d365d31329960d1566749b5f081cad24b4c756a4df866c543d33161205c8"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_06.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            29,
+            33,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 48,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 317,
+            "black_pixels": 675,
+            "gold_pixels": 87
+          },
+          "sha256": "9cd0e492a7116f92885330809edb524008d9eb7977ef736f13d9291f651c406b"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_07.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            32,
+            33,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 34,
+          "foot_baseline_y": 90,
+          "body_height": 56,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 54,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 311,
+            "black_pixels": 682,
+            "gold_pixels": 88
+          },
+          "sha256": "b9b8ca67f84d81831f2d1eadbccf24dbac596838e8beeccb0a2a69602f5ac2d7"
+        }
+      ],
+      "authored_right_weapon_ground_clearance_pixels": [
+        33,
+        33,
+        32,
+        32,
+        31,
+        32,
+        32,
+        33
+      ],
+      "minimum_weapon_ground_clearance_pixels": 31
+    },
+    {
+      "animation": "player_attack",
+      "fps": 25,
+      "runtime_duration_seconds": 0.4,
+      "expected_frames_per_direction": 10,
+      "actual_frame_files": 20,
+      "spritesheet_size": [
+        960,
+        192
+      ],
+      "spritesheet_expected_size": [
+        960,
+        192
+      ],
+      "png_preview_size": [
+        2880,
+        576
+      ],
+      "gif_frame_count": 10,
+      "unique_scale_count": 1,
+      "common_source_scale": 0.219794466,
+      "all_96x96_rgba": true,
+      "all_canvas_edges_transparent": true,
+      "body_center_x_range": [
+        48,
+        48
+      ],
+      "foot_baseline_y_range": [
+        90,
+        90
+      ],
+      "body_height_range": [
+        52,
+        55
+      ],
+      "visible_green_fringe_pixels": 0,
+      "left_is_exact_pivot_mirror": true,
+      "frames": [
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            34,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 35,
+          "foot_baseline_y": 90,
+          "body_height": 55,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 70,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 331,
+            "black_pixels": 690,
+            "gold_pixels": 92
+          },
+          "sha256": "057b44660d41c0891fd797967eefd0f356b8f27e56915f1f81fa4c075ab2fcad"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            31,
+            34,
+            72,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 36,
+          "foot_baseline_y": 90,
+          "body_height": 54,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 73,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 302,
+            "black_pixels": 667,
+            "gold_pixels": 79
+          },
+          "sha256": "0059610e71189dc35a87dd239abd50fd998a4f05ce2faa818b259bbe25ded3ae"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            31,
+            31,
+            69,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 73,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 296,
+            "black_pixels": 672,
+            "gold_pixels": 73
+          },
+          "sha256": "0200daf43ffd10f8fe67109e009cc6a42d574df5f9754608fe38d8d0ab6f9c38"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            31,
+            36,
+            65,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 36,
+          "foot_baseline_y": 90,
+          "body_height": 54,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 62,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 292,
+            "black_pixels": 644,
+            "gold_pixels": 66
+          },
+          "sha256": "c3eb4716b0dec21d834e5f3828caa776df609ac4dcaa53367ac55aa7ee713dd8"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_04.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            5,
+            38,
+            74,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 38,
+          "foot_baseline_y": 90,
+          "body_height": 52,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 77,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 284,
+            "black_pixels": 730,
+            "gold_pixels": 58
+          },
+          "sha256": "451efbb313538e6eba92bb47c42aec0939e952188e721978defad58760bf2a8c"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_05.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            11,
+            36,
+            74,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 53,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 277,
+            "black_pixels": 714,
+            "gold_pixels": 61
+          },
+          "sha256": "7a98923013b99a96908f81d78c59739b11391c05e720f0c30337da191274b2cb"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_06.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            33,
+            36,
+            81,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 71,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 293,
+            "black_pixels": 699,
+            "gold_pixels": 64
+          },
+          "sha256": "3a7d3478d39b640fa8f11d343ada1c8fb8c388bce714f23bf522c1a79c827d1e"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_07.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            36,
+            77,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 57,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 293,
+            "black_pixels": 660,
+            "gold_pixels": 65
+          },
+          "sha256": "276c2036578635f998734ebcf03c2078ab4c44601303cd2c5cd20e6f1679cdbb"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_08.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            25,
+            36,
+            66,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 55,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 310,
+            "black_pixels": 615,
+            "gold_pixels": 60
+          },
+          "sha256": "a5c58337474a7a32c42daad1820b094583fdb1b77f6f57f3a84b394ccb186927"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_09.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            35,
+            79,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 35,
+          "foot_baseline_y": 90,
+          "body_height": 55,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 69,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 323,
+            "black_pixels": 657,
+            "gold_pixels": 93
+          },
+          "sha256": "26b83284d79b5731d86f55080def1d4c5a2181fb88ba33579c7e31859232a8e0"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            34,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 35,
+          "foot_baseline_y": 90,
+          "body_height": 55,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 70,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 331,
+            "black_pixels": 690,
+            "gold_pixels": 92
+          },
+          "sha256": "2537462f0dada9edef01264ede56f9e30f0b40623ba789cafe0a644165132c2e"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            25,
+            34,
+            66,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 36,
+          "foot_baseline_y": 90,
+          "body_height": 54,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 73,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 302,
+            "black_pixels": 667,
+            "gold_pixels": 79
+          },
+          "sha256": "8b31317bf4816be0b64187adfa6a2b6833626b3d33c3d4a58afb4bc7920de5a4"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            28,
+            31,
+            66,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 73,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 296,
+            "black_pixels": 672,
+            "gold_pixels": 73
+          },
+          "sha256": "6ccf10769dbbc6dbb52258e88a447f45a00ef1f701f52ce0c4e57fcd8de1430c"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            32,
+            36,
+            66,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 36,
+          "foot_baseline_y": 90,
+          "body_height": 54,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 62,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 292,
+            "black_pixels": 644,
+            "gold_pixels": 66
+          },
+          "sha256": "9e054812510668b18c11e23b3e9047d2be322a98716c557acb527ba3fa5296f9"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_04.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            23,
+            38,
+            92,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 38,
+          "foot_baseline_y": 90,
+          "body_height": 52,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 77,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 284,
+            "black_pixels": 730,
+            "gold_pixels": 58
+          },
+          "sha256": "b1597e25cadb04c5ae6ab9f17f8363885350d9fd4152ac89fcac308752b90af3"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_05.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            23,
+            36,
+            86,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 53,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 277,
+            "black_pixels": 714,
+            "gold_pixels": 61
+          },
+          "sha256": "47199be4ca611ddf32634ac4e774e152ff7e9c7649ffe49775564cf152977c6f"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_06.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            16,
+            36,
+            64,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 71,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 293,
+            "black_pixels": 699,
+            "gold_pixels": 64
+          },
+          "sha256": "16969b5b731217c8f1d93c6998edfebc91af539e401946c5a8f436da0787005d"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_07.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            20,
+            36,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 57,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 293,
+            "black_pixels": 660,
+            "gold_pixels": 65
+          },
+          "sha256": "789ac27275540a2576433a6c365921c13c87d288d4eb3a56475ff1fecdb89572"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_08.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            31,
+            36,
+            72,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 37,
+          "foot_baseline_y": 90,
+          "body_height": 53,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 55,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 310,
+            "black_pixels": 615,
+            "gold_pixels": 60
+          },
+          "sha256": "743094ff85687ad98d6581f28a822bbf4f616a82b031c556ea002fda2764259d"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_09.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            18,
+            35,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 35,
+          "foot_baseline_y": 90,
+          "body_height": 55,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 69,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 323,
+            "black_pixels": 657,
+            "gold_pixels": 93
+          },
+          "sha256": "967d4e61c354a94578af0497afbd552464460640f4e0c5db3d16534e6a8fd32d"
+        }
+      ]
+    },
+    {
+      "animation": "player_death",
+      "fps": 10,
+      "runtime_duration_seconds": 0.8,
+      "expected_frames_per_direction": 8,
+      "actual_frame_files": 16,
+      "spritesheet_size": [
+        768,
+        192
+      ],
+      "spritesheet_expected_size": [
+        768,
+        192
+      ],
+      "png_preview_size": [
+        2304,
+        576
+      ],
+      "gif_frame_count": 8,
+      "unique_scale_count": 1,
+      "common_source_scale": 0.1755,
+      "all_96x96_rgba": true,
+      "all_canvas_edges_transparent": true,
+      "body_center_x_range": [
+        48,
+        48
+      ],
+      "foot_baseline_y_range": [
+        90,
+        90
+      ],
+      "body_height_range": [
+        18,
+        45
+      ],
+      "visible_green_fringe_pixels": 0,
+      "left_is_exact_pivot_mirror": true,
+      "frames": [
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            16,
+            44,
+            62,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 45,
+          "foot_baseline_y": 90,
+          "body_height": 45,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 55,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 206,
+            "black_pixels": 440,
+            "gold_pixels": 49
+          },
+          "sha256": "89216d775c1c62d120eafa499c33012b6c034c45ab347fa36eb8a6f6da30b0da"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            34,
+            50,
+            92,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 50,
+          "foot_baseline_y": 90,
+          "body_height": 40,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 47,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 224,
+            "black_pixels": 418,
+            "gold_pixels": 42
+          },
+          "sha256": "ea3782854f3acbcb3333c48f1111895eeda70d19733ac09e68beb22e1cd6565f"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            33,
+            56,
+            84,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 56,
+          "foot_baseline_y": 90,
+          "body_height": 34,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 36,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 226,
+            "black_pixels": 423,
+            "gold_pixels": 44
+          },
+          "sha256": "fabe3d318c47eea87d829a24b94b379895b9df5ddfb7977cb1a76edf8bfb369a"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            19,
+            63,
+            75,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 63,
+          "foot_baseline_y": 90,
+          "body_height": 27,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 24,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 207,
+            "black_pixels": 389,
+            "gold_pixels": 38
+          },
+          "sha256": "58afbecd524275cd333a09c6f0e54faf10e539dbd403b66f18790dfdd6489f7d"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_04.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            22,
+            62,
+            79,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 62,
+          "foot_baseline_y": 90,
+          "body_height": 28,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 54,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 225,
+            "black_pixels": 409,
+            "gold_pixels": 35
+          },
+          "sha256": "76133912b3a51220bfa6f5e1dfbb7ea190962d33460c006b97e84275a38f1d1b"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_05.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            23,
+            65,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 65,
+          "foot_baseline_y": 90,
+          "body_height": 25,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 36,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 236,
+            "black_pixels": 426,
+            "gold_pixels": 36
+          },
+          "sha256": "6f8d09ae6c0158f0ee5a3db803717d3004cead25cd8c3357f3c0696b970db4a9"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_06.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            20,
+            69,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 70,
+          "foot_baseline_y": 90,
+          "body_height": 20,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 40,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 203,
+            "black_pixels": 439,
+            "gold_pixels": 37
+          },
+          "sha256": "990914f28f46867e5a8ddf0ccecccccc6251e127352cedb8bdc054ab7f847fad"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_07.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            20,
+            71,
+            82,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 72,
+          "foot_baseline_y": 90,
+          "body_height": 18,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 42,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 186,
+            "black_pixels": 403,
+            "gold_pixels": 26
+          },
+          "sha256": "4040bb48f9d70eed5eeb93ae6f950b90cce28e42e82d9e495b8034e04226a55c"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_00.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            35,
+            44,
+            81,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 45,
+          "foot_baseline_y": 90,
+          "body_height": 45,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 55,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 206,
+            "black_pixels": 440,
+            "gold_pixels": 49
+          },
+          "sha256": "b0d39f5ea85b45be9717a134de40809fece27cb43beac25ffde9c40ede998a2e"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_01.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            5,
+            50,
+            63,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 50,
+          "foot_baseline_y": 90,
+          "body_height": 40,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 47,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 224,
+            "black_pixels": 418,
+            "gold_pixels": 42
+          },
+          "sha256": "1cc3081b82c637e25876826a5e79b49fc71249ab3b7085c099aaba9200508409"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_02.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            13,
+            56,
+            64,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 56,
+          "foot_baseline_y": 90,
+          "body_height": 34,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 36,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 226,
+            "black_pixels": 423,
+            "gold_pixels": 44
+          },
+          "sha256": "c09cab179059711db3374ed989dbf1fc1b50fc890e8335b18fd5b3eee55f9376"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_03.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            22,
+            63,
+            78,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 63,
+          "foot_baseline_y": 90,
+          "body_height": 27,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 24,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 207,
+            "black_pixels": 389,
+            "gold_pixels": 38
+          },
+          "sha256": "f5d7f3eb5dfc430e16b36cc8ff0bfb1e68ddc1a272b3fc8e52fb01dddad86324"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_04.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            18,
+            62,
+            75,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 62,
+          "foot_baseline_y": 90,
+          "body_height": 28,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 54,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 225,
+            "black_pixels": 409,
+            "gold_pixels": 35
+          },
+          "sha256": "bf791488646e0de8846a49147f2556eb9f9d170f6eb0c3788a1acdb534f27871"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_05.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            65,
+            74,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 65,
+          "foot_baseline_y": 90,
+          "body_height": 25,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 36,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 236,
+            "black_pixels": 426,
+            "gold_pixels": 36
+          },
+          "sha256": "47bd00a8b3cd6490fa57462bf7948b2cec20d53c093ca0f61bdaa83359934fd2"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_06.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            69,
+            77,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 70,
+          "foot_baseline_y": 90,
+          "body_height": 20,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 40,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 203,
+            "black_pixels": 439,
+            "gold_pixels": 37
+          },
+          "sha256": "9fbe8054a657bae7f2e1817e9116e0050ab40b5da93d033cd771781615997eae"
+        },
+        {
+          "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_07.png",
+          "size": [
+            96,
+            96
+          ],
+          "mode": "RGBA",
+          "bbox": [
+            15,
+            71,
+            77,
+            90
+          ],
+          "body_center_x": 48,
+          "body_top_y": 72,
+          "foot_baseline_y": 90,
+          "body_height": 18,
+          "border_alpha_max": {
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          "partial_alpha_pixels": 42,
+          "visible_green_fringe_pixels": 0,
+          "identity_palette": {
+            "gray_hair_pixels": 186,
+            "black_pixels": 403,
+            "gold_pixels": 26
+          },
+          "sha256": "4a99d9e2a227174b744d759164d7d218643c20d4b1c56fab6af7571ce1bb9128"
+        }
+      ]
+    }
+  ],
+  "finisher_icon": {
+    "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/icons/qiong_finisher_icon_64.png",
+    "preview_32_path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/previews/qiong_finisher_icon_32.png",
+    "size": [
+      64,
+      64
+    ],
+    "mode": "RGBA",
+    "bbox": [
+      10,
+      5,
+      56,
+      57
+    ],
+    "alpha_centroid": [
+      32.308,
+      31.765
+    ],
+    "border_alpha_max": {
+      "top": 0,
+      "right": 0,
+      "bottom": 0,
+      "left": 0
+    },
+    "coverage": 0.39917,
+    "partial_alpha_pixels": 15,
+    "visible_green_fringe_pixels": 0,
+    "preview_32_nonempty": true
+  },
+  "failures": []
+}

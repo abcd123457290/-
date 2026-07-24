@@ -1,0 +1,87 @@
+{
+  "frame_width": 64,
+  "frame_height": 64,
+  "directions": {
+    "down": 0,
+    "left": 1,
+    "right": 2,
+    "up": 3
+  },
+  "animations": {
+    "crouch_unarmed": {
+      "image": "crouch_unarmed/qiong_crouch_unarmed_4dir.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 1,
+      "loop": true,
+      "pose": "one_knee_crouch",
+      "order": ["down", "left", "right", "up"]
+    },
+    "crouch_bat": {
+      "image": "crouch_bat/qiong_crouch_bat_4dir.png",
+      "columns": 4,
+      "rows": 1,
+      "fps": 1,
+      "loop": true,
+      "pose": "one_knee_crouch",
+      "order": ["down", "left", "right", "up"]
+    },
+    "walk": {
+      "image": "walk/qiong_unarmed_walk_4dir_4frames.png",
+      "columns": 4,
+      "rows": 4,
+      "fps": 8,
+      "loop": true
+    },
+    "bat_walk": {
+      "image": "walk_bat/qiong_bat_walk_4dir_4frames.png",
+      "columns": 4,
+      "rows": 4,
+      "fps": 8,
+      "loop": true,
+      "carry_pose": "one-handed forward carry"
+    },
+    "bat_swing": {
+      "image": "bat_swing/qiong_bat_swing_with_vfx_4dir_5frames.png",
+      "base_image": "bat_swing/qiong_bat_swing_4dir_5frames.png",
+      "vfx_image": "bat_swing/qiong_bat_swing_vfx_4dir_5frames.png",
+      "columns": 5,
+      "rows": 4,
+      "fps": 12,
+      "hit_frame": 2
+    },
+    "bat_throw": {
+      "image": "bat_throw/qiong_bat_throw_with_vfx_4dir_5frames.png",
+      "base_image": "bat_throw/qiong_bat_throw_4dir_5frames.png",
+      "vfx_image": "bat_throw/qiong_bat_throw_vfx_4dir_5frames.png",
+      "columns": 5,
+      "rows": 4,
+      "fps": 10,
+      "release_frame": 2
+    },
+    "punch": {
+      "image": "punch/qiong_punch_with_vfx_4dir_5frames.png",
+      "base_image": "punch/qiong_punch_4dir_5frames.png",
+      "vfx_image": "punch/qiong_punch_vfx_4dir_5frames.png",
+      "columns": 5,
+      "rows": 4,
+      "fps": 12,
+      "hit_frame": 2
+    },
+    "bat_spin": {
+      "image": "bat_spin/qiong_bat_spin_8frames.png",
+      "vfx_image": "bat_spin/qiong_bat_spin_vfx_8frames.png",
+      "composite_image": "bat_spin/qiong_bat_spin_with_vfx_8frames.png",
+      "columns": 8,
+      "rows": 1,
+      "fps": 16,
+      "loop": true
+    }
+  },
+  "unarmed": {
+    "image": "unarmed/qiong_unarmed_idle_4dir.png",
+    "columns": 4,
+    "rows": 1,
+    "order": ["down", "left", "right", "up"]
+  }
+}

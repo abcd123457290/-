@@ -1,0 +1,129 @@
+{
+  "version": "ultimate_blue_vfx_v1",
+  "identity_source": "existing first_style_animation_bat/combat_animation transparent PNGs",
+  "direction_order": [
+    "down",
+    "left",
+    "right",
+    "up"
+  ],
+  "actor": {
+    "frame_size": [
+      64,
+      64
+    ],
+    "pivot": [
+      32,
+      60
+    ]
+  },
+  "local_vfx": {
+    "frame_size": [
+      192,
+      192
+    ],
+    "pivot": [
+      96,
+      96
+    ]
+  },
+  "animations": {
+    "basic_swing": {
+      "actor_sheet": "spritesheets/basic_actor_4dir_10frames.png",
+      "vfx_sheet": "spritesheets/basic_blue_vfx_4dir_10frames.png",
+      "composite_sheet": "spritesheets/basic_blue_composite_4dir_10frames.png",
+      "columns": 10,
+      "rows": 4,
+      "fps": 12,
+      "hit_frame": 5,
+      "vfx_scale_from_original": 1.5
+    },
+    "super_activation": {
+      "actor_sheet": "spritesheets/activation_actor_4dir_10frames.png",
+      "vfx_sheet": "spritesheets/activation_vfx_4dir_10frames.png",
+      "composite_sheet": "spritesheets/activation_composite_4dir_10frames.png",
+      "columns": 10,
+      "rows": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "throw": {
+      "actor_sheet": "spritesheets/throw_actor_4dir_5frames.png",
+      "vfx_sheet": "spritesheets/throw_blue_vfx_4dir_5frames.png",
+      "composite_sheet": "spritesheets/throw_blue_composite_4dir_5frames.png",
+      "columns": 5,
+      "rows": 4,
+      "fps": 10,
+      "release_frame": 2
+    }
+  },
+  "projectile": {
+    "frame_size": [
+      64,
+      64
+    ],
+    "pivot": [
+      32,
+      32
+    ],
+    "fps": 16
+  },
+  "endpoint_explosion": {
+    "frame_size": [
+      512,
+      512
+    ],
+    "pivot": [
+      256,
+      256
+    ],
+    "fps": 12,
+    "directionless_aoe": true
+  },
+  "ultimate_combo": {
+    "frame_size": [
+      512,
+      512
+    ],
+    "pivot": [
+      256,
+      256
+    ],
+    "fps": 12,
+    "frames_per_hit": 10,
+    "hit_frame": 5,
+    "forward_arc_degrees": 132.0,
+    "radii": [
+      144,
+      160,
+      176,
+      196,
+      216
+    ],
+    "directions": [
+      "down",
+      "left",
+      "right",
+      "up"
+    ],
+    "backward_area": "transparent",
+    "composite_root": "composite/ultimate_combo",
+    "actor_source": "actor_frames/basic_swing/{direction}/bat_swing_{direction}_{frame}.png",
+    "actor_canvas_top_left": [
+      224,
+      224
+    ]
+  },
+  "style_sources": {
+    "basic": "basic_swing_chroma.png",
+    "activation": "super_activation_chroma.png",
+    "combo": "ultimate_combo_forward_chroma.png",
+    "throw": "throw_penetration_chroma.png",
+    "explosion": "endpoint_explosion_chroma.png",
+    "feedback": "enemy_feedback_chroma.png"
+  },
+  "excluded_from_final": [
+    "style_sources/ultimate_combo_radial_draft_chroma.png",
+    "style_guides/ultimate_combo_radial_draft_transparent.png"
+  ]
+}

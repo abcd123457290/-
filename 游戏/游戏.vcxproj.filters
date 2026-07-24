@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssetPaths.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAiModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetPaths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAiModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatEffects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HitEffect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CombatTuning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\角色建模\穹\first_style_animation_bat\**\*.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\角色建模\怪物\**\*.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\角色建模\穹\first_style_animation_bat\**\*.webp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <None Include="..\角色建模\怪物\**\*.json">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\角色建模\怪物\**\*.md">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\角色建模\穹\first_style_animation_bat\**\*.json">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\角色建模\穹\first_style_animation_bat\**\*.md">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

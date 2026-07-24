@@ -1,0 +1,557 @@
+{
+  "version": "side_only_v3",
+  "frame_size": [
+    96,
+    96
+  ],
+  "pivot": [
+    48,
+    90
+  ],
+  "direction_order": [
+    "left",
+    "right"
+  ],
+  "facing_policy": "horizontal_memory",
+  "source_policy": {
+    "authored_direction": "right",
+    "left_direction": "exact mirror about pivot x=48",
+    "standing_visual_body_height": 56,
+    "scale_scope": "one fixed uniform scale per source master",
+    "per_frame_scale": false,
+    "anisotropic_stretch": false,
+    "discarded_source_cells": {
+      "source": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/qiong_idle_source_4x2_chroma.png",
+      "cells": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "reason": "old walk4 dragged the bat on the ground"
+    },
+    "crowded_row_segmentation": {
+      "method": "8-connected large actors with cuts at green-gap midpoints",
+      "walk8": [
+        {
+          "row": 0,
+          "source_y_range": [
+            0,
+            444
+          ],
+          "x_cuts": [
+            0,
+            479,
+            870,
+            1280,
+            1774
+          ],
+          "large_components": [
+            {
+              "area": 32291,
+              "left": 123,
+              "top": 82,
+              "right": 406,
+              "bottom": 372
+            },
+            {
+              "area": 31243,
+              "left": 552,
+              "top": 80,
+              "right": 805,
+              "bottom": 369
+            },
+            {
+              "area": 32049,
+              "left": 936,
+              "top": 78,
+              "right": 1216,
+              "bottom": 365
+            },
+            {
+              "area": 31755,
+              "left": 1345,
+              "top": 84,
+              "right": 1626,
+              "bottom": 372
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "source_y_range": [
+            444,
+            887
+          ],
+          "x_cuts": [
+            0,
+            467,
+            870,
+            1290,
+            1774
+          ],
+          "large_components": [
+            {
+              "area": 32196,
+              "left": 115,
+              "top": 40,
+              "right": 411,
+              "bottom": 322
+            },
+            {
+              "area": 31503,
+              "left": 523,
+              "top": 44,
+              "right": 802,
+              "bottom": 331
+            },
+            {
+              "area": 31477,
+              "left": 939,
+              "top": 44,
+              "right": 1209,
+              "bottom": 334
+            },
+            {
+              "area": 31429,
+              "left": 1372,
+              "top": 44,
+              "right": 1626,
+              "bottom": 333
+            }
+          ]
+        }
+      ],
+      "attack10": [
+        {
+          "row": 0,
+          "source_y_range": [
+            0,
+            444
+          ],
+          "x_cuts": [
+            0,
+            366,
+            708,
+            1030,
+            1329,
+            1774
+          ],
+          "large_components": [
+            {
+              "area": 25437,
+              "left": 67,
+              "top": 102,
+              "right": 283,
+              "bottom": 359
+            },
+            {
+              "area": 23268,
+              "left": 450,
+              "top": 101,
+              "right": 635,
+              "bottom": 357
+            },
+            {
+              "area": 23492,
+              "left": 780,
+              "top": 87,
+              "right": 953,
+              "bottom": 357
+            },
+            {
+              "area": 21902,
+              "left": 1107,
+              "top": 111,
+              "right": 1261,
+              "bottom": 356
+            },
+            {
+              "area": 23537,
+              "left": 1397,
+              "top": 116,
+              "right": 1710,
+              "bottom": 354
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "source_y_range": [
+            444,
+            887
+          ],
+          "x_cuts": [
+            0,
+            403,
+            694,
+            1020,
+            1330,
+            1774
+          ],
+          "large_components": [
+            {
+              "area": 23394,
+              "left": 93,
+              "top": 45,
+              "right": 381,
+              "bottom": 292
+            },
+            {
+              "area": 22324,
+              "left": 425,
+              "top": 42,
+              "right": 642,
+              "bottom": 289
+            },
+            {
+              "area": 21432,
+              "left": 747,
+              "top": 43,
+              "right": 938,
+              "bottom": 290
+            },
+            {
+              "area": 22584,
+              "left": 1103,
+              "top": 43,
+              "right": 1290,
+              "bottom": 290
+            },
+            {
+              "area": 23799,
+              "left": 1371,
+              "top": 44,
+              "right": 1569,
+              "bottom": 294
+            }
+          ]
+        }
+      ],
+      "death8": [
+        {
+          "row": 0,
+          "source_y_range": [
+            0,
+            444
+          ],
+          "x_cuts": [
+            0,
+            403,
+            808,
+            1258,
+            1774
+          ],
+          "large_components": [
+            {
+              "area": 22409,
+              "left": 143,
+              "top": 117,
+              "right": 312,
+              "bottom": 378
+            },
+            {
+              "area": 23436,
+              "left": 494,
+              "top": 151,
+              "right": 736,
+              "bottom": 378
+            },
+            {
+              "area": 24340,
+              "left": 880,
+              "top": 187,
+              "right": 1171,
+              "bottom": 380
+            },
+            {
+              "area": 22395,
+              "left": 1344,
+              "top": 229,
+              "right": 1662,
+              "bottom": 381
+            }
+          ]
+        },
+        {
+          "row": 1,
+          "source_y_range": [
+            444,
+            887
+          ],
+          "x_cuts": [
+            0,
+            450,
+            862,
+            1288,
+            1774
+          ],
+          "large_components": [
+            {
+              "area": 23318,
+              "left": 80,
+              "top": 127,
+              "right": 407,
+              "bottom": 285
+            },
+            {
+              "area": 24521,
+              "left": 494,
+              "top": 150,
+              "right": 828,
+              "bottom": 290
+            },
+            {
+              "area": 23097,
+              "left": 896,
+              "top": 172,
+              "right": 1247,
+              "bottom": 289
+            },
+            {
+              "area": 22278,
+              "left": 1328,
+              "top": 180,
+              "right": 1684,
+              "bottom": 289
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "source_masters": {
+    "user_reference": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/user_reference.png",
+    "idle_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/qiong_idle_source_4x2_chroma.png",
+    "idle_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_idle_source_4x2_transparent.png",
+    "walk8_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/qiong_walk_8frames_chroma.png",
+    "walk8_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_walk_8frames_transparent.png",
+    "attack10_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/qiong_attack_10frames_chroma.png",
+    "attack10_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_attack_10frames_transparent.png",
+    "death8_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/qiong_death_8frames_chroma.png",
+    "death8_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_death_8frames_transparent.png",
+    "finisher_icon_chroma": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/style_sources/qiong_finisher_icon_chroma.png",
+    "finisher_icon_transparent": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/transparent_masters/qiong_finisher_icon_transparent.png",
+    "chroma_command": "remove_chroma_key.py --auto-key border --soft-matte --transparent-threshold 12 --opaque-threshold 220 --despill"
+  },
+  "animations": {
+    "player_idle": {
+      "actor": "qiong",
+      "frame_size": [
+        96,
+        96
+      ],
+      "pivot": [
+        48,
+        90
+      ],
+      "fps": 5,
+      "runtime_duration_seconds": 0.8,
+      "timing_semantics": "frame_count / fps",
+      "loop": true,
+      "frame_count": 4,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=48",
+      "common_source_scale": 0.189011885,
+      "per_frame_scale": false,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/left/qiong_idle_left_03.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/idle/right/qiong_idle_right_03.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/spritesheets/qiong_idle_side_4frames_96.png",
+        "columns": 4,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "player_walk": {
+      "actor": "qiong",
+      "frame_size": [
+        96,
+        96
+      ],
+      "pivot": [
+        48,
+        90
+      ],
+      "fps": 12,
+      "runtime_duration_seconds": 0.666667,
+      "timing_semantics": "frame_count / fps",
+      "loop": true,
+      "frame_count": 8,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=48",
+      "common_source_scale": 0.196925217,
+      "per_frame_scale": false,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/left/qiong_walk_left_07.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/walk/right/qiong_walk_right_07.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/spritesheets/qiong_walk_side_8frames_96.png",
+        "columns": 8,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    "player_attack": {
+      "actor": "qiong",
+      "frame_size": [
+        96,
+        96
+      ],
+      "pivot": [
+        48,
+        90
+      ],
+      "fps": 25,
+      "runtime_duration_seconds": 0.4,
+      "timing_semantics": "frame_count / fps",
+      "loop": false,
+      "frame_count": 10,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=48",
+      "common_source_scale": 0.219794466,
+      "per_frame_scale": false,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_07.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_08.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/left/qiong_attack_left_09.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_07.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_08.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/attack/right/qiong_attack_right_09.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/spritesheets/qiong_attack_side_10frames_96.png",
+        "columns": 10,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      },
+      "hit_frame": 4,
+      "hit_time_seconds": 0.16,
+      "hit_boundary_semantics": "0-based timeline sampling: elapsed < 0.16s uses frames 0..3; elapsed >= 0.16s samples contact frame 4"
+    },
+    "player_death": {
+      "actor": "qiong",
+      "frame_size": [
+        96,
+        96
+      ],
+      "pivot": [
+        48,
+        90
+      ],
+      "fps": 10,
+      "runtime_duration_seconds": 0.8,
+      "timing_semantics": "frame_count / fps",
+      "loop": false,
+      "frame_count": 8,
+      "source_facing": "right",
+      "left_generation": "exact horizontal mirror about pivot x=48",
+      "common_source_scale": 0.1755,
+      "per_frame_scale": false,
+      "frames": {
+        "left": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/left/qiong_death_left_07.png"
+        ],
+        "right": [
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_00.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_01.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_02.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_03.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_04.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_05.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_06.png",
+          "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/player/death/right/qiong_death_right_07.png"
+        ]
+      },
+      "spritesheet": {
+        "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/spritesheets/qiong_death_side_8frames_96.png",
+        "columns": 8,
+        "rows": 2,
+        "row_order": [
+          "left",
+          "right"
+        ]
+      }
+    }
+  },
+  "finisher_icon": {
+    "path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/icons/qiong_finisher_icon_64.png",
+    "size": [
+      64,
+      64
+    ],
+    "visual_center": [
+      32,
+      32
+    ],
+    "preview_32_path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/previews/qiong_finisher_icon_32.png",
+    "preview_32_zoom_path": "角色建模/穹/first_style_animation_bat/combat_animation/side_only_v3/previews/qiong_finisher_icon_32_zoom.png",
+    "transparent_background": true,
+    "baked_ui_frame": false
+  }
+}
